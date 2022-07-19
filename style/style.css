@@ -197,4 +197,7 @@ footer>h1{
         flex-direction: column;
         align-items: center;
     }
+    .footlinks a{
+        margin-top: 50px;
+    }
 }
