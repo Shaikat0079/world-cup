@@ -171,6 +171,11 @@ footer>h1{
 /* for Mobile view */
 
 @media only screen and (max-width:688px){
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .description-player{
         flex-direction: column;
         align-items: stretch;
@@ -181,6 +186,7 @@ footer>h1{
     }
     header>.description-player>.description>h1,header>.description-player>.description>p{
         padding-right: 0;
+        text-align: center;
     }
     .upcoming-group-blog-transfer>.buttons{
         margin-bottom: 30px;
