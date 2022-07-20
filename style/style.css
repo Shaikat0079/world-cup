@@ -90,9 +90,9 @@ main{
     width: 90%;
     display: flex;
     flex-direction: column;
-    background-color: #F5EDDC;
+    border: .5px solid #CFD2CF;
     padding-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 .upcoming-group-blog-transfer>.transfer>.player>.player-info{
     padding-top: 20px;
@@ -288,7 +288,7 @@ footer>h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F5EDDC;
+    border: .5px solid #CFD2CF;
     padding: 50px;
     border-radius: 5px;
 }
