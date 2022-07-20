@@ -314,6 +314,8 @@ footer>h1{
         justify-items: center;
     }
 }
+ 
+/* tablet view */
 
 @media only screen and (min-width:688px) and (max-width:992px){
     .upcoming-group-blog-country{
@@ -334,4 +336,11 @@ footer>h1{
         justify-items: center;
         gap:75px
     }
+}
+
+.description>.btn:hover{
+    transform: scale(.5) rotate(360deg);
+}
+.description>.btn{
+    transition: transform 2s;
 }
